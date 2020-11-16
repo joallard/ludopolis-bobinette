@@ -1,0 +1,22 @@
+{
+  "name": "ludopolis-bobinette",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "buefy": "^0.9.4",
+    "gridsome": "^0.7.0"
+  },
+  "devDependencies": {
+    "@iconify/vue": "^2.0.0-rc.2",
+    "gridsome-plugin-pug": "^0.0.3",
+    "jstransformer-markdown": "^1.2.1",
+    "pug": "^3.0.0",
+    "pug-loader": "^2.4.0",
+    "sass": "^1.29.0",
+    "sass-loader": "^7.3.1"
+  }
+}
