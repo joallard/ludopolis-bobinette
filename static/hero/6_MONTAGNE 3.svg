@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2000 2000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="_6_MONTAGNE-3" serif:id="6_MONTAGNE 3" transform="matrix(1.03986,0,0,1.03986,1.38515,5.48422)">
+        <g transform="matrix(1,0,0,1,1199.14,560.061)">
+            <path d="M0,176.644C0,176.644 272.28,-59.733 346.22,-151.916C420.149,-244.086 533.92,-435.016 598.97,-248.336C664.01,-61.669 719.53,20.662 719.53,20.662L722.503,1358L-1195.36,1358L-1200.47,353.066C-1200.47,353.066 -320.673,341.05 0,176.644" style="fill:rgb(167,191,156);fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(0.965917,0.258851,0.258851,-0.965917,1708.1,289.994)">
+            <path d="M2.006,-0.264C6.231,-0.264 9.656,3.206 9.657,7.485C9.655,11.767 6.231,15.235 2.006,15.235C-2.22,15.234 -5.645,11.768 -5.645,7.485C-5.645,3.206 -2.22,-0.264 2.006,-0.264" style="fill:rgb(205,227,211);fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(0.965917,0.258851,0.258851,-0.965917,1735.94,294.814)">
+            <path d="M2.006,-0.264C6.232,-0.264 9.657,3.206 9.657,7.484C9.656,11.767 6.231,15.235 2.006,15.235C-2.219,15.234 -5.645,11.767 -5.645,7.484C-5.644,3.206 -2.219,-0.264 2.006,-0.264" style="fill:rgb(205,227,211);fill-rule:nonzero;"/>
+        </g>
+    </g>
+</svg>

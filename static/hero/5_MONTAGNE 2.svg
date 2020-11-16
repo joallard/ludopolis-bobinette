@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2000 2000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="_5_MONTAGNE-2-" serif:id="5_MONTAGNE 2 " transform="matrix(1,0,0,1,-0.631196,0)">
+        <g transform="matrix(1.03986,0,0,1.03986,1.03986,836.394)">
+            <path d="M0,-133.611C0,-133.611 179,-377.058 367,-396.058C658.848,-425.553 1922.33,881.444 1922.33,881.444L1919,1119L0.332,1119L-0.393,33.351L0,-133.611Z" style="fill:rgb(168,194,159);fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(1.0397,0.0185332,0.0185332,-1.0397,362.147,487.009)">
+            <path d="M0.222,-0.002C7.013,-0.003 12.52,5.574 12.52,12.452C12.517,19.335 7.013,24.909 0.222,24.91C-6.57,24.908 -12.076,19.336 -12.075,12.452C-12.075,5.575 -6.571,-0.002 0.222,-0.002" style="fill:rgb(250,215,192);fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(1.0397,0.0185332,0.0185332,-1.0397,434.322,483.584)">
+            <path d="M0.222,-0.002C7.015,-0.002 12.521,5.575 12.52,12.452C12.518,19.336 7.013,24.91 0.222,24.91C-6.568,24.909 -12.076,19.337 -12.075,12.453C-12.073,5.576 -6.569,-0.001 0.222,-0.002" style="fill:rgb(250,215,192);fill-rule:nonzero;"/>
+        </g>
+    </g>
+</svg>

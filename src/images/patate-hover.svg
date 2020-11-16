@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 350 350" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1.70092,0,0,1.70092,-574.286,-6501.74)">
+        <path d="M423.345,3946.25C381.606,3950.89 361.349,4028.25 361.349,4028.25L477.353,4028.25C477.353,4028.25 495.341,3938.24 423.345,3946.25Z" style="fill:rgb(198,229,144);"/>
+    </g>
+    <g transform="matrix(1.70092,0,0,1.70092,-508.773,-6251.7)">
+        <ellipse cx="416.467" cy="3825.79" rx="6.749" ry="7.75" style="fill:white;"/>
+    </g>
+    <g transform="matrix(1.70092,0,0,1.70092,-542.791,-6251.7)">
+        <ellipse cx="416.467" cy="3825.79" rx="6.749" ry="7.75" style="fill:white;"/>
+    </g>
+    <g transform="matrix(7.88959,0,0,7.88959,-2694.48,-30764.4)">
+        <text x="357.714px" y="3924.54px" style="font-family:'Aller-Bold', 'Aller';font-weight:700;font-size:20px;fill:white;">+</text>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2000 2000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="_4_-MONTAGNE-1-" serif:id="4_ MONTAGNE 1 ">
+        <g transform="matrix(1.03986,0,0,1.03986,-2.22045e-16,943.158)">
+            <path d="M0,-441.73C0,-441.73 103.946,-566.45 186,-598.73C268.054,-631 343.071,-456.99 406,-377.73C468.929,-298.472 712.334,-335.654 712.334,-335.654L1920,-40.73L1921.31,1015.33L2.311,1016.33L0,-441.73Z" style="fill:rgb(206,200,167);fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(1.0397,0.0185141,0.0185141,-1.0397,203.578,355.865)">
+            <path d="M0.111,-0.001C3.526,-0.001 6.294,2.803 6.294,6.26C6.293,9.722 3.526,12.524 0.111,12.524C-3.303,12.523 -6.072,9.722 -6.071,6.261C-6.071,2.803 -3.304,-0.001 0.111,-0.001" style="fill:rgb(255,228,226);fill-rule:nonzero;"/>
+        </g>
+        <g transform="matrix(1.03969,0.0185971,0.0185971,-1.03969,227.259,354.143)">
+            <path d="M0.112,-0.001C3.528,-0.001 6.295,2.803 6.294,6.261C6.293,9.722 3.526,12.524 0.112,12.524C-3.303,12.523 -6.071,9.721 -6.07,6.26C-6.07,2.803 -3.303,-0.001 0.112,-0.001" style="fill:rgb(255,228,226);fill-rule:nonzero;"/>
+        </g>
+    </g>
+</svg>

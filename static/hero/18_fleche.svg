@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2000 2000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:10;">
+    <g id="_18_fleche" serif:id="18_fleche">
+        <g transform="matrix(0,1.03986,1.03986,0,1054.1,955.221)">
+            <path d="M-53.314,-53.314L53.314,-53.314" style="fill:none;stroke:white;stroke-width:0.96px;"/>
+        </g>
+        <g transform="matrix(1.03986,0,0,1.03986,1018.24,1010.55)">
+            <path d="M0,-18.83L-18.831,0L-37.661,-18.83" style="fill:none;stroke:white;stroke-width:0.96px;"/>
+        </g>
+    </g>
+</svg>
