@@ -164,7 +164,7 @@ layout
     .section-title
       h2 On jase jeu?
 
-    contact-form(data-netlify=true)
+    contact-form(data-netlify="netlify")
 
   //- page-section#temoignages
     h2 Témoignages
