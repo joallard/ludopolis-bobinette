@@ -67,7 +67,9 @@ layout
       //- page-section#services: section.subsection#le-fun
       .section-title
         h2 Même notre consultation est <em>le fun</em>
-        p Pour animer votre quotidien, on met du jeu dans vos vies!
+        p.
+          Ensemble, on va trouver 1000 façons de mettre du jeu dans vos projets!
+          (On en gardera une et ce sera la meilleure.)
 
 
     section#consiste
