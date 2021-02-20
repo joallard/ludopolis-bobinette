@@ -1,7 +1,7 @@
 <template lang="pug">
 client-only: form.form(
   @submit.prevent="onSubmit" name="contact" method="POST"
-  el="form"
+  ref="form"
   )
 
   template(v-if="done")
