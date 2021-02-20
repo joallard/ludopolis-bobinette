@@ -1,8 +1,9 @@
 <template lang="pug">
 client-only: form.form(
-  @submit.prevent="onSubmit" name="contact" method="POST"
+  @submit.prevent="onSubmit"
   ref="form" :action="url"
   )
+  input(type="hidden" name="form-name" value="Contact")
 
   template(v-if="done")
     p Merci! Nous vous contacterons dans les plus brefs délais.
