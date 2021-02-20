@@ -1,9 +1,9 @@
 <template lang="pug">
-form.form
-  template(v-if="done")
+form.form(@submit="sending = true" @success="done = true" @error="sending = false")
+  template(v-show="done")
     p Merci! Nous vous contacterons dans les plus brefs délais.
 
-  template(v-else)
+  template(v-show="!done")
     b-field(label="Message" :label-position="labelPosition")
       b-input(placeholder="Écrivez votre message ici..." type="textarea" :disabled="disabled" required)
 
