@@ -1,5 +1,9 @@
 <template lang="pug">
-client-only: form.form(@submit="sending = true" @success="done = true" @error="sending = false")
+client-only: form.form(
+  @submit.prevent="onSubmit" name="contact" method="POST"
+  el="form"
+  )
+
   template(v-if="done")
     p Merci! Nous vous contacterons dans les plus brefs délais.
 
@@ -18,15 +22,41 @@ client-only: form.form(@submit="sending = true" @success="done = true" @error="s
 </template>
 
 <script>
-  export default {
-    data: () => ({
-      labelPosition: "inside",
-      sending: false,
-      done: false,
-    }),
+export default {
+  data: () => ({
+    labelPosition: "inside",
+    sending: false,
+    done: false,
+  }),
 
-    computed: {
-      disabled(){ return this.sending }
+  computed: {
+    disabled(){ return this.sending }
+  },
+
+  methods: {
+    onSubmit(e){
+      let formData = new FormData(this.$els.form)
+      this.sending = true
+
+      fetch('/', {
+        method: 'POST',
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formData).toString()
+      })
+      .then(() => this.onSuccess())
+      .catch((error) => this.onError(error))
+
+    },
+
+    onSuccess(){
+      this.sending = false
+      this.done = true
+    },
+
+    onError(error){
+      this.sending = false
+      console.log(error)
     }
   }
+}
 </script>
