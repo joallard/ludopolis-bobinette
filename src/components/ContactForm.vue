@@ -20,7 +20,7 @@ client-only: form.form(
         b-input(placeholder="200 555-1234" :disabled="disabled" required name="Contact")
 
     b-field.actions.has-text-right
-      b-button.primary(:loading="disabled") Envoyer &rarr;
+      b-button.primary(native-type="submit" :loading="disabled") Envoyer &rarr;
 </template>
 
 <script>
@@ -41,7 +41,7 @@ export default {
 
   methods: {
     onSubmit(e){
-      let formData = new FormData(this.$els.form)
+      let formData = new FormData(this.refs.form)
       this.sending = true
 
       fetch('/', {
