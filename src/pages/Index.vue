@@ -108,14 +108,14 @@ layout
 
       section.realisation.column
         .image.is-3by2: g-image(src="~/images/projet-camp-2.png" width=600 height=400)
-        h3 Les voix de la forêt
+        h3 Challenge 24h
         h4 Une expérience de camping ludique
         p.
           Locapaq et Ludopolis proposent une expédition ludique avec des jeux adaptés à votre aventure
 
       section.realisation.column
         .image.is-3by2: g-image(src="~/images/projet-jeu.jpg" width=600 height=400)
-        h3 Challenge 24h
+        h3 Un jeu sérieux
         h4 Un jeu pour encourager l'engagement citoyen
         p.
           Un accompagnement avec l'équipe de l'ACAT pour concevoir un jeu sur les enjeux de l'abolition des maltraitances et de la torture
