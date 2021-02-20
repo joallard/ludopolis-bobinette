@@ -1,5 +1,5 @@
 <template lang="pug">
-  .hero#hero.background
+  client-only: .hero#hero.background
     #scenes.scene.background
       layer-item(
         v-for="(layer,i) in layers"
