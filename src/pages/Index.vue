@@ -445,6 +445,7 @@ $mid: hsl(85.3,59.7%,72.7%)
 
 .etapes .column
   max-width: 20em
+  margin: auto
 
 .bulle
   background: url("../images/etape-shape.svg")
