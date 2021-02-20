@@ -33,7 +33,7 @@ layout
         h4 Un projet qui n'inspire personne
         p.
           Votre événement ou produit ne suscite pas l'intérêt qu'il mérite?
-      .image: g-image(src=`~/images/patate-1.svg` width="200")
+      .image: g-image(src="~/images/patate-1.svg" width="200")
       section.reve
         h4 Une expérience ludique pour votre public
         p.
@@ -44,7 +44,7 @@ layout
         h4 Un public qui ne répond pas
         p.
           Des clients potentiels ou un public qui ne répondent pas à l'appel, qui n'interagissent pas suffisamment
-      .image: g-image(src=`~/images/patate-2.svg` width="200")
+      .image: g-image(src="~/images/patate-2.svg" width="200")
       section.reve
         h4 Une équipe formée, cohérente et efficace
         p.
@@ -55,7 +55,7 @@ layout
         h4 Difficile de faire passer votre contenu
         p.
           Vous peinez à générer de l'engouement et à vous démarquer des demandes d'attention
-      .image: g-image(src=`~/images/patate-3.svg` width="200")
+      .image: g-image(src="~/images/patate-3.svg" width="200")
       section.reve
         h4 Des jeux et des outils qui correspondent à vos valeurs
         p.
