@@ -1,5 +1,5 @@
 <template lang="pug">
-  section.section
+  section.section.page-section
     .container
       slot
 </template>
