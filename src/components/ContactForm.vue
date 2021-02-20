@@ -41,7 +41,7 @@ export default {
 
   methods: {
     onSubmit(e){
-      let formData = new FormData(this.refs.form)
+      let formData = new FormData(this.$refs.form)
       this.sending = true
 
       fetch('/', {
