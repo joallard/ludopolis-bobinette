@@ -1,7 +1,7 @@
 <template lang="pug">
 client-only: form.form(
   @submit.prevent="onSubmit" name="contact" method="POST"
-  ref="form"
+  ref="form" :action="url"
   )
 
   template(v-if="done")
@@ -9,13 +9,15 @@ client-only: form.form(
 
   template(v-if="!done")
     b-field(label="Message" :label-position="labelPosition")
-      b-input(placeholder="Écrivez votre message ici..." type="textarea" :disabled="disabled" required)
+      b-input(name="Message"
+        placeholder="Écrivez votre message ici..." type="textarea"
+        :disabled="disabled" required)
 
     .columns
       .column.my-0: b-field(label="Nom" :label-position="labelPosition")
-        b-input(placeholder="Prénom Nom" :disabled="disabled" required)
+        b-input(placeholder="Prénom Nom" :disabled="disabled" required name="Nom")
       .column.my-0: b-field(label="Téléphone/Courriel" :label-position="labelPosition")
-        b-input(placeholder="200 555-1234" :disabled="disabled" required)
+        b-input(placeholder="200 555-1234" :disabled="disabled" required name="Contact")
 
     b-field.actions.has-text-right
       b-button.primary(:loading="disabled") Envoyer &rarr;
@@ -23,6 +25,10 @@ client-only: form.form(
 
 <script>
 export default {
+  props: {
+    url: String
+  },
+
   data: () => ({
     labelPosition: "inside",
     sending: false,

@@ -164,7 +164,13 @@ layout
     .section-title
       h2 On jase jeu?
 
-    contact-form(data-netlify="netlify")
+
+    form(data-netlify="netlify" style="display: none" ref="netlifyForm" name="Contact")
+      input(name="Message")
+      input(name="Nom")
+      input(name="Contact")
+
+    contact-form(:url="formUrl")
 
   //- page-section#temoignages
     h2 Témoignages
@@ -241,7 +247,9 @@ export default {
   },
 
   metaInfo: {
-    title: 'Ludopolis'
+    title: 'Ludopolis',
+
+    formUrl: "",
   },
 
   data: () => ({
