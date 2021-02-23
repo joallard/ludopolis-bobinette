@@ -305,6 +305,10 @@ h4
 h5
   font-size: 1.10em
 
+h2
+  line-height: 1.2
+  letter-spacing: 0.02ex
+
 .container:not(.is-stupid-bulma)
   max-width: 50em
 .container:not(.is-max-desktop):not(.is-max-widescreen)
