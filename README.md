@@ -1,14 +1,61 @@
-# Default starter for Gridsome
+# Ludopolis: Bobinette
+<https://ludopolis.ca>
 
-This is the project you get when you run `gridsome create new-project`.
+Il s'agit d'un site statique basé sur Gridsome (Vue/Javascript), hébergé chez Netlify.
 
-### 1. Install Gridsome CLI tool if you don't have
+Le repo présent constitue le site et son contenu.
 
-`npm install --global @gridsome/cli`
-
-### 2. Create a Gridsome project
-
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+## Cartogramme
+```
++------------------------------+                                                                                                        
+|     Domaine (Registrar)      |                                                                                                        
+|------------------------------|     (Établit la propriété et le                                                                        
+|                              |      contrôle du nom de domaine)                                                                       
+|       Gandi | David          |                                                                                                        
+|                              |     Expiration: 2023-12-05                                                                             
+|       ludopolis.ca           |                                                                                                        
+|                              |     Coût: ~15$/an                                                                                      
++------------------------------+                                                                                                        
+                |                                                                                                                      
+                |                                                                                                                      
+                v                                                                                                                      
++------------------------------+                                                                                                        
+|             DNS              |     (C'est ce qui dit aux requêtes                                                                     
+--------------------------------      où trouver chaque service)                                                                        
+|                              |                                                                                                        
+|   Netlify DNS | Jonathan     |-----------------------------+                                                                          
+|                              |      MX                     |                                                                          
+|     dns*.p06.nsone.net       |                             v                                                                          
+|                              |              +-----------------------------+                                                           
++------------------------------+              |          Courriels          |                                                           
+                |  A/AAAA                     -------------------------------                                                           
+                |                             |                             |                                                           
+                |                             |   Google Worksp. | David    |                                                           
+                |                             |                             |                                                           
+                |                             |        @ludopolis.ca        |                                                           
+                v                             |                             |                                                           
++------------------------------+              +-----------------------------+                                                           
+|     Hébergement du site      |               (Entrepose et transmet les courriels)                                                    
+--------------------------------                                                                                                        
+|                              |                                                                                                        
+|   Netlify Sites | Jonathan   |  (Serveur qui répond chaque                                                                            
+|                              |   fois qu'on visite le site)                                                                           
+|     ludopolis-bobinette      |                                                                                                        
+|                              |  (Netlify compile le code en un site web)                                                              
++------------------------------+                                                                                                        
+                ^                                                                                                                       
+                |                                                                                                                       
+                ^  (à chaque changement, le code est envoyé                                                                             
+                |   pour re-générer la nouvelle version du site)                                                                        
+                ^                                                                                                                       
+                |                                                                                                                       
++-------------------------------+                                                                                                       
+|     Hébergement du code       |                                                                                                       
+---------------------------------                                                                                                       
+|                               |  (Contient le code qui constitue                                                                      
+|      Github | Jonathan        |   le site)                                                                                            
+|                               |                                                                                                       
+| joallard/ludopolis-bobinette  |                                                                                                       
+|                               |                                                                                                       
++-------------------------------+                                                                                                                                                                                                                                            
+```
