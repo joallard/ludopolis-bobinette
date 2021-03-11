@@ -59,3 +59,7 @@ Le repo présent constitue le site et son contenu.
 |                               |                                                                                                       
 +-------------------------------+                                                                                                                                                                                                                                            
 ```
+
+## Détails techniques
+* Le gros du code (Index) est dans [`src/pages/Index.vue`](https://github.com/joallard/ludopolis-bobinette/blob/master/src/pages/Index.vue)
+* Le langage Pug (qui compile vers HTML) est sensible à l'indentation
