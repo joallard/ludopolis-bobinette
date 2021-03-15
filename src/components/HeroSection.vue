@@ -1,5 +1,5 @@
 <template lang="pug">
-  client-only: .hero#hero.background
+  client-only: .hero#hero
     #scenes.scene.background
       layer-item(
         v-for="(layer,i) in layers"
@@ -8,7 +8,11 @@
         :parent-dy="dy"
       )
 
-    .noise
+
+      .noise
+
+    .section: .container
+      slot
 </template>
 
 <script>
@@ -114,7 +118,7 @@ export default {
 
 </script>
 
-<style lang="sass">
+<style lang="sass" scoped>
 
 $vert: #579b6f
 
@@ -135,7 +139,6 @@ $vert: #579b6f
 
 .background
   position: relative
-  z-index: -1
 
 .layer
   position: fixed
@@ -186,6 +189,14 @@ $vert: #579b6f
   // opacity: 0.7
   transform: translate3d(0,0,0)
   // background-size: 600px
-  // background-image: url("~/images/noise.svg")
+  background-image: url("/noise.svg")
+
+.section
+  position: absolute
+  z-index: 1
+  width: 100%
+
+  color: white
+
 
 </style>

@@ -17,12 +17,10 @@ layout
 
   //- page-section#hero(style="height: 1000px")
   hero-section(@update:heroVisible="")
-    h2 Ce qu'on fait dans la vie
-    .text: p
-      | Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-      | nibh euismod tincidunt ut laoreet dolore Lorem ipsum dolor sit amet,
-      | consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-      | laoreet dolore.
+    .columns.title-font
+      .column.is-5 L'OBNL d'experts en jeu
+      .column.is-2
+      .column.is-5 parce que jouer, c'est sérieux
 
   page-section#problemes
     h2 Les problèmes qu'on résout
@@ -75,7 +73,7 @@ layout
     section#consiste
       h2 Ça consiste en quoi?
 
-      .columns.image-columns
+      .main.columns.image-columns
         section.service.column
           .image: g-image(src="~/images/patate-4.svg")
           h4 On rend vos événements le fun
@@ -100,7 +98,7 @@ layout
   page-section#realisations
     h2 Ce qu'on a fait pour d'autres
 
-    .columns
+    .main.columns
       section.realisation.column
         .image.is-3by2: g-image(src="~/images/projet-blocs.jpg" width=600 height=400)
         h3 Festival Montréal joue
@@ -130,7 +128,7 @@ layout
       h2 Les différentes étapes d'un projet Ludopolis
       p En bref, on offre une expertise en ludification. Du service-conseil, mais fun.
 
-    .etapes.columns.is-multiline.has-text-centered
+    .etapes.main.columns.is-multiline.has-text-centered
       .column.is-half.is-one-third-desktop.my-0
         section.etape.bulle.image.is-square: .has-ratio: .inside
           h3 Étape 1
@@ -193,7 +191,7 @@ layout
           Lucie Fer, *Parti Libéral du Québec*.
 
   page-section#footer
-    .columns
+    .main.columns
       .column.is-one-third
         section.adresse.block
           h4 Ludopolis
@@ -286,11 +284,12 @@ h1,h2,h3,h4,h5,h6
   font-weight: bold
   line-height: 1.4
 
-h2
+h2, .title-font
   font-family: Golden Gate, sans-serif
   font-size-adjust: 0.8
-  text-align: center
+h2
   margin: 1em 0 0.8em
+  text-align: center
 
 h2, h3, h4
   color: #111
@@ -319,7 +318,14 @@ h2
 .subsection
   margin: 1em 0
 
-@media (min-width: 480px)
+
+
+$larger-than-mobile: "(min-width: 480px)"
+
+$smaller-than-tablet: "(max-width: 767px)"
+$only-mobile: "(max-width: 479px)"
+
+@media #{$larger-than-mobile}
   .columns
     display: flex
   .is-half
@@ -332,7 +338,7 @@ h2
   h3, h4
     text-align: center
 
-.column
+.main.columns .column
   margin: 1em 0
 
 .button
@@ -374,7 +380,8 @@ $corail: hsl(15, 97%, 70%)
   grid-template-rows: auto 1fr auto
   grid-column-gap: 1em
 
-@media (max-width: 767px)
+
+@media #{$smaller-than-tablet}
   .grid-3x3
     grid-auto-rows: auto
     // grid-template-rows: repeat(2, auto auto)
@@ -414,6 +421,7 @@ $corail: hsl(15, 97%, 70%)
     +button-color($background, $color)
     +transparent-hover($background)
 
+
 .section-title
   text-align: center
   margin-bottom: 4em
@@ -427,7 +435,7 @@ $corail: hsl(15, 97%, 70%)
   .columns .image
     max-width: 14em
     margin: auto
-    @media (max-width: 480px)
+    @media #{$only-mobile}
       max-width: 50%
 
 $transition: mix($vertjaune, white, 90%)
@@ -477,6 +485,15 @@ $mid: hsl(85.3,59.7%,72.7%)
     align-items: center
     justify-content: center
 
+#hero .section
+  @media #{$only-mobile}
+    padding-top: 50vh
+    .title-font
+      font-size: 2.6em
+  .title-font
+    font-size: 3em
+  .column:last-child
+    text-align: right
 
 #consiste
   +accent-bouton(white, $corail)
