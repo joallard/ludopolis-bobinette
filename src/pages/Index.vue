@@ -247,7 +247,7 @@ export default {
   },
 
   metaInfo: {
-    title: 'Ludopolis',
+    title: "L'OBNL d'experts en jeu",
 
     formUrl: "",
   },
