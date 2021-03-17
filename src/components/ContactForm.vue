@@ -17,8 +17,8 @@ client-only: form.form(
     .columns
       .column.my-0: b-field(label="Nom" :label-position="labelPosition")
         b-input(placeholder="Prénom Nom" :disabled="disabled" required name="Nom")
-      .column.my-0: b-field(label="Téléphone/Courriel" :label-position="labelPosition")
-        b-input(placeholder="200 555-1234" :disabled="disabled" required name="Contact")
+      .column.my-0: b-field(label="Courriel" :label-position="labelPosition")
+        b-input(type="email" placeholder="adresse@courriel.com" :disabled="disabled" required name="Contact")
 
     b-field.actions.has-text-right
       b-button.primary(native-type="submit" :loading="disabled") Envoyer &rarr;
