@@ -93,7 +93,7 @@ layout
             Des formations pour outiller votre équipe sur le jeu et le jouer
 
       section.cta
-        a.button Voir nos services détaillés
+        a.button(href="#processus") Comment ça fonctionne
 
   page-section#realisations
     h2 Ce qu'on a fait pour d'autres
